@@ -1,0 +1,50 @@
+footer {
+    position: relative;
+    background-color: #0082A1;
+    padding: 49px 0 40px;
+
+    &::after {
+        content: '';
+        top: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        width: 1171px;
+        height: 1px;
+        opacity: .3;
+        background-color: $white;
+    }
+
+    .footer-wraper {
+        justify-content: space-between;
+
+        .about {
+            width: 377px;
+
+            .logo-img {
+               margin-top: 20px; 
+            }
+    
+            .text {
+                margin-top: 20px;
+                color: $white;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 19px;
+            }
+        }
+    
+        .moduls {
+            width: 270px;             
+        }
+    }  
+    
+    .copiright {
+        text-align: center;
+        margin-top: 81px;
+        color: $white;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+}
