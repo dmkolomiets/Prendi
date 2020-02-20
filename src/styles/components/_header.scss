@@ -1,0 +1,45 @@
+header {
+    padding: 19px 0;
+
+    .wraper-contry-item {
+        display: flex;
+        justify-content: space-around;
+    
+        .country-item {
+            min-width: 183px;
+            display: flex;
+            align-items: start;
+    
+            .descr {
+                display: flex;
+                flex-direction: column;
+                margin-left: 11px;
+
+                .name {
+                    line-height: 14px;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                .contacts {
+                    display: flex;
+                    flex-direction: column;
+
+                    a,
+                    .adres {
+                        margin-top: 5px;
+                        color: #242424;
+                        font-size: 12px;
+                        font-weight: 300;
+                        &:hover {
+                            text-decoration: none;
+                        }                   
+
+                    }
+                    
+                }
+    
+            }
+        }
+    }
+}

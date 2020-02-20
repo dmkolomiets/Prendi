@@ -1,0 +1,262 @@
+.promo {
+    z-index: 1;
+    position: absolute;
+
+    width: 100%;
+    padding: 39px 0 195px 0;   
+    
+    .wraper-flex {
+        align-items: center;
+        justify-content: space-between;
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            display: flex;
+    
+            &-link {
+                margin: 0 23px;
+                color: #ffffff;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 26px;
+                text-transform: uppercase;
+                &:hover {
+                    text-decoration: none;
+                    color: $main-color
+                }
+            }
+        }
+    }
+
+    .title {
+        margin-top: 133px;
+        max-width: 534px;
+        color: $white;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .subtitle {
+        margin-top: 27px;
+        width: 426px;
+        color: $white;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        font-weight: 300;
+
+        span {
+            font-weight: 400;
+        }
+    }
+
+    .btn {
+        margin-top: 39px;
+    }
+    
+}
+
+.question {
+    padding: 780px 0 80px;
+
+    .question-wrap {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .question-item {
+            margin-top: 15px;
+            width: 360px;
+            height: 255px;
+            border: 1px solid #ececec;
+            text-align: center;
+            background: url('../../../images/icons/question-icon-bg.png') center no-repeat;
+            background-position: right bottom;
+            
+            .descr {
+                padding: 0 50px;
+                color: #393939;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 22px;
+            }
+
+            .bold {
+                font-weight: 700;
+                padding: 0 46px;
+            }
+        }
+    }
+
+    .arrow {
+        display: block;
+        margin: 72px auto 0;        
+    }
+
+    .title {
+        color: #393939;
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 33px;
+        margin-bottom: 20px;
+    }    
+}
+
+.decision {
+    position: relative;
+    padding: 80px 0 61px;
+    background: url('../../../images/decision-bg.jpg') center center/cover no-repeat;
+
+    h3.title {
+        width: 630px;
+    }
+
+    .mackbook {
+        
+        width: 947px;
+        height: 560px;
+        margin: 125px auto 0;
+        background: url('../../../images/macbook-air.png') center/cover no-repeat;
+    }
+}
+
+.advantages {
+    padding: 81px 0;
+
+    h3.title {
+        width: 371px;
+        color: #393939;
+    }
+    
+    .pad-0 {
+        padding: 0;
+    }
+
+    .advantages-item-wraper {
+        margin-top: 44px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .advantages-item {
+            width: 570px;
+            height: 355px;
+            position: relative;
+    
+            img {
+                width: 100%;
+            }
+    
+            .text-wraper {
+                padding: 0 116px;
+                position: absolute;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100%;
+                height: 156px;
+                background-color: rgba(0,0,0, .44);
+    
+                .text {
+                    color: $white;
+                    font-size: 23px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
+
+.options {
+    background: url('../../../images/options-bg.jpg') center/cover no-repeat;
+    padding: 49px 0 181px;
+
+    h3.title {
+        width: 375px;
+    }
+
+    
+    .options-item {        
+        margin-top: 90px;
+        padding: 38px 0;
+        position: relative; 
+        width: 50%;
+        text-align: right;
+        height: 167px;
+
+        .title {
+            z-index: 10;
+            margin-right: 82px;
+            color: $white;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 22px;
+            text-transform: uppercase;
+        }
+
+        .descr {
+            margin: 20px 82px 0 0;
+            color: $white;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+       }
+
+        .square {
+            position: absolute;
+            bottom: 0;
+            right: 43px;
+            width: 167px;
+            height: 167px;
+            background-color: #00c2f0;
+            opacity: 0.3;
+        }
+
+    }
+
+    .server {
+        .title {
+            margin-left: 82px;
+            text-align: left;
+        }
+        
+        .descr {
+            margin: 20px 0 0 82px;
+            text-align: left;
+        }
+
+        .square {
+            left: 43px;
+        }
+    } 
+    
+}
+
+.access {
+    padding: 80px 0;
+    text-align: center;
+
+    .access-img {
+        margin: 0 auto;
+        width: 302px;
+        height: 302px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    h3.title {
+        margin-top: 74px;
+        color: #393939;
+    }
+    
+    .btn {
+        margin-top: 30px;
+    }
+}
