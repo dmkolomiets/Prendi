@@ -15,8 +15,11 @@ footer {
         background-color: $white;
 
         @media (max-width: 1200px) {            
-            width: 95%;
-         
+            width: 95%;         
+        }
+
+        @media (max-width: 767px) {          
+            top: 450px;
         }
     }
 
@@ -25,6 +28,10 @@ footer {
 
         .about {
             width: 377px;
+
+            @media (max-width: 991px) {
+                width: 300px;
+            }
 
             .logo-img {
                margin-top: 20px; 
@@ -36,11 +43,20 @@ footer {
                 font-size: 14px;
                 font-weight: 300;
                 line-height: 19px;
+
+                @media (max-width: 991px) {
+                    font-size: 12px;
+                }
             }
         }
     
         .moduls {
-            width: 270px;             
+            width: 270px;  
+            
+            @media (max-width: 991px) {
+                width: 200px;
+            }
+
         }
     }    
     
@@ -50,6 +66,10 @@ footer {
         color: $white;
         font-size: 13px;
         font-weight: 300;
+
+        @media (max-width: 991px) {
+            margin-top: 42px;
+        }
     }
 
 }

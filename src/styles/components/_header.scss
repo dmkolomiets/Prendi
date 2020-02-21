@@ -1,14 +1,32 @@
 header {
     padding: 19px 0;
 
+    @media (max-width: 991px) { 
+        padding-bottom: 0;       
+    }
+
     .wraper-contry-item {
         display: flex;
         justify-content: space-around;
+
+        @media (max-width: 991px) {          
+            flex-wrap: wrap;        
+        }
+
+        
     
         .country-item {
             min-width: 183px;
             display: flex;
             align-items: start;
+
+            @media (max-width: 991px) { 
+                margin-bottom: 15px;       
+            }
+
+            @media (max-width: 767px) {          
+                width: 210px;
+            }
     
             .descr {
                 display: flex;

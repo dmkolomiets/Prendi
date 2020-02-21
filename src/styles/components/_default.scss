@@ -18,11 +18,18 @@ h3.title {
     font-size: 30px;
     font-weight: 700;
     line-height: 100%;
+
+    @media (max-width: 991px) {
+        font-size: 24px;
+    }
+
+    @media (max-width: 767px) {          
+        font-size: 20px;
+    }
 }
 
 .title-footer {
-    color: #ffffff;
-    focolor: $white;
+    color: $white;
     font-size: 14px;
     font-weight: 300;
     font-size: 16px;
@@ -40,6 +47,10 @@ h3.title {
         font-weight: 300;
         line-height: 22px;
         text-decoration: none;
+
+        @media (max-width: 991px) {
+            font-size: 12px;
+        }
     }                
     
 }

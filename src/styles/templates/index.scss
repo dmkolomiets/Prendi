@@ -21,6 +21,16 @@
                 font-weight: 700;
                 line-height: 26px;
                 text-transform: uppercase;
+
+                @media (max-width: 991px) { 
+                    margin: 0 12px;       
+                }
+
+                @media (max-width: 767px) {          
+                    margin: 0 7px;
+                    font-size: 10px;
+                }
+
                 &:hover {
                     text-decoration: none;
                     color: $main-color
@@ -36,6 +46,14 @@
         font-size: 42px;
         font-weight: 700;
         line-height: 48px;
+
+        @media (max-width: 991px) { 
+            font-size: 30px;       
+        }
+
+        @media (max-width: 767px) {          
+            font-size: 19px;
+        }
     }
 
     .subtitle {
@@ -46,6 +64,14 @@
         font-weight: 300;
         line-height: 30px;
         font-weight: 300;
+
+        @media (max-width: 991px) { 
+            font-size: 18px;       
+        }
+
+        @media (max-width: 767px) {          
+            font-size: 14px;
+        }
 
         span {
             font-weight: 400;
@@ -69,6 +95,12 @@
             justify-content: space-around;
         }
 
+        @media (max-width: 991px) { 
+            img {
+                width: 120px;
+            }       
+        }
+
 
         .question-item {
             margin-top: 15px;
@@ -78,6 +110,10 @@
             text-align: center;
             background: url('../../../images/icons/question-icon-bg.png') center no-repeat;
             background-position: right bottom;
+
+            @media (max-width: 991px) { 
+                width: 340px;       
+            }
             
             .descr {
                 padding: 0 50px;
@@ -107,6 +143,10 @@
         text-align: center;
         margin-top: 33px;
         margin-bottom: 20px;
+
+        @media (max-width: 991px) { 
+            font-size: 34px;       
+        }
     }    
 }
 
@@ -117,14 +157,30 @@
 
     h3.title {
         width: 630px;
+
+        @media (max-width: 767px) {          
+            width: 100%;
+        }
     }
 
-    .mackbook {
-        
+    .mackbook {        
         width: 947px;
         height: 560px;
         margin: 125px auto 0;
         background: url('../../../images/macbook-air.png') center/cover no-repeat;
+    
+        @media (max-width: 991px) { 
+            width: 90%;
+            height: 380px;       
+        }
+
+        @media (max-width: 767px) {          
+            height: 285px;
+        }
+
+        @media (max-width: 767px) {          
+            margin-top: 40px;
+        }
     }
 }
 
@@ -215,6 +271,15 @@
             @media (max-width: 1200px) {
                 font-size: 22px;
             }
+
+            @media (max-width: 991px) {
+                font-size: 15px;
+            }
+
+            @media (max-width: 767px) {          
+                font-size: 14px;
+            }
+            
         }
 
         .descr {
@@ -245,6 +310,10 @@
         .title {
             margin-left: 82px;
             text-align: left;
+
+            @media (max-width: 767px) {          
+                margin-right: 0;
+            }
         }
         
         .descr {
@@ -268,8 +337,13 @@
         width: 302px;
         height: 302px;
 
+        @media (max-width: 991px) {
+            height: 209px;
+            width: 209px;
+        }
+
         img {
-            width: 100%;
+            width: 100%;            
         }
     }
 
