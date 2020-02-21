@@ -97,10 +97,18 @@
 
     .slick-prev {
         left: -180px;
+
+        @media (max-width: 1200px) {
+            left: -100px;
+        }
     }
 
     .slick-next {
         right: -180px;
+
+        @media (max-width: 1200px) {
+            right: -100px;
+        }
     } 
 
     li.slick-active {
@@ -146,9 +154,9 @@
                 padding: 14px;
             }
 
-            // &:last-child:after {
-            //     border-right: none;
-            // }  
+            &:last-child:after {
+                border-right: none;
+            }  
 
         }  
             

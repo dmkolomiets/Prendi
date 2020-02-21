@@ -64,6 +64,12 @@
     .question-wrap {
         justify-content: space-between;
         flex-wrap: wrap;
+
+        @media (max-width: 1200px) {
+            justify-content: space-around;
+        }
+
+
         .question-item {
             margin-top: 15px;
             width: 360px;
@@ -143,9 +149,17 @@
             width: 570px;
             height: 355px;
             position: relative;
+
+            @media (max-width: 1200px) {
+                width: 480px;
+            }
     
             img {
                 width: 100%;
+
+                @media (max-width: 1200px) {
+                    height: 100%;
+                }
             }
     
             .text-wraper {
@@ -197,6 +211,10 @@
             font-weight: 700;
             line-height: 22px;
             text-transform: uppercase;
+
+            @media (max-width: 1200px) {
+                font-size: 22px;
+            }
         }
 
         .descr {
@@ -205,6 +223,10 @@
             font-size: 18px;
             font-weight: 300;
             line-height: 26px;
+
+            @media (max-width: 1200px) {
+                font-size: 15px;
+            }
        }
 
         .square {
